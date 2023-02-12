@@ -14,10 +14,10 @@ import springfox.documentation.spring.web.plugins.Docket;
 
 @Configuration
 public class SwaggerConfig {
-	public static final Contact DEFAULT_CONTACT = new Contact("Santosh Korada", "https://github.com/santoshkorada",
-			"santuk95@gmail.com");
+	public static final Contact DEFAULT_CONTACT = new Contact("Priyanka Bellure ", "",
+			"priyankadon@gmail.com");
 
-	public static final ApiInfo DEFAULT_API_INFO = new ApiInfo("Sapient Quizme API", "Sapient Quizme Description",
+	public static final ApiInfo DEFAULT_API_INFO = new ApiInfo("", "",
 			"1.0", "urn:tos", DEFAULT_CONTACT, "", "", Arrays.asList());
 
 	private static final Set<String> DEFAULT_PRODUCES_AND_CONSUMES = new HashSet<String>(
